@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniezztowel - Handuk Pilihan Terbaik Anda!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            padding: 80px 0;
+        }
+        .product-card {
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .whatsapp-button {
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .whatsapp-button i {
+            margin-right: 8px;
+        }
+        .footer-cta {
+            background-color: #343a40;
+            color: white;
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Miniezztowel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produk Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Hubungi Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <h1 class="display-4 fw-bold text-primary mb-3">Miniezztowel: Kelembutan dan Kualitas untuk Anda!</h1>
+                    <p class="lead mb-4">Temukan koleksi handuk terbaik yang menyerap sempurna dan nyaman di kulit. Jangan lewatkan penawaran spesial kami!</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20tertarik%20dengan%20produk%20Anda." class="btn btn-success btn-lg whatsapp-button shadow-sm" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pesan Sekarang via WhatsApp!
+                    </a>
+                </div>
+                <div class="col-md-6 text-center mt-4 mt-md-0">
+                    <img src="https://via.placeholder.com/600x400?text=Handuk+Berkualitas" class="img-fluid rounded shadow-lg" alt="Handuk Berkualitas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-primary">Produk Unggulan Kami</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm product-card">
+                        <img src="img/strawberry.jpg" class="card-img-top" alt="Handuk Mandi Premium">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">strawberry miniez towel</h5>
+                            <p class="card-text">Rasakan kelembutan dan manisnya kue kami</p>
+                            <h6 class="text-success fw-bold">Rp 25.000</h6>
+                            <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20tertarik%20dengan%20Handuk%20Mandi%20Premium.%20Berapa%20harganya%3F" class="btn whatsapp-button btn-sm w-100 mt-3" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Beli kue Ini!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm product-card">
+                        <img src="https://via.placeholder.com/400x300?text=Handuk+Muka+Lembut" class="card-img-top" alt="Handuk Muka Lembut">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Handuk Muka Ultra Lembut</h5>
+                            <p class="card-text">Handuk muka khusus dengan serat mikro yang sangat lembut, cocok untuk kulit sensitif. Nikmati sensasi segar setelah membersihkan wajah.</p>
+                            <h6 class="text-success fw-bold">Rp 35.000</h6>
+                            <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20tertarik%20dengan%20Handuk%20Muka%20Ultra%20Lembut.%20Berapa%20harganya%3F" class="btn whatsapp-button btn-sm w-100 mt-3" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Beli Handuk Ini!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow-sm product-card">
+                        <img src="https://via.placeholder.com/400x300?text=Set+Handuk+Keluarga" class="card-img-top" alt="Set Handuk Keluarga">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Set Handuk Keluarga Hemat</h5>
+                            <p class="card-text">Paket lengkap handuk untuk seluruh keluarga. Tersedia dalam berbagai ukuran dan warna. Pilihan cerdas untuk kebutuhan rumah tangga Anda!</p>
+                            <h6 class="text-success fw-bold">Rp 180.000</h6>
+                            <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20tertarik%20dengan%20Set%20Handuk%20Keluarga%20Hemat.%20Berapa%20harganya%3F" class="btn whatsapp-button btn-sm w-100 mt-3" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Beli Handuk Ini!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p class="lead">Lihat lebih banyak koleksi kami dan dapatkan penawaran spesial yang tidak bisa Anda tolak!</p>
+                <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20ingin%20melihat%20katalog%20lengkap%20produk%20Anda." class="btn btn-primary btn-lg whatsapp-button shadow-sm" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Jelajahi Semua Produk via WhatsApp!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2 text-center text-md-start">
+                    <h2 class="mb-4 fw-bold text-primary">Tentang Miniezztowel</h2>
+                    <p class="lead">Miniezztowel hadir untuk memenuhi kebutuhan handuk berkualitas tinggi Anda. Kami berkomitmen menyediakan produk yang lembut, tahan lama, dan stylish.</p>
+                    <p>Setiap handuk kami dibuat dengan perhatian pada detail, memastikan kenyamanan maksimal dan daya serap optimal. Kami percaya bahwa handuk bukan hanya kebutuhan, tetapi juga bagian dari pengalaman kelembutan dan kesegaran sehari-hari.</p>
+                    <p class="fw-bold">Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut atau konsultasi produk!</p>
+                    <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20punya%20pertanyaan%20tentang%20toko%20Anda." class="btn btn-outline-primary btn-lg whatsapp-button shadow-sm" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Tanya Kami!
+                    </a>
+                </div>
+                <div class="col-md-6 order-md-1 text-center mt-4 mt-md-0">
+                    <img src="https://via.placeholder.com/500x350?text=Kualitas+Terjamin" class="img-fluid rounded shadow-lg" alt="Kualitas Terjamin">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-primary">Kunjungi Toko Kami!</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-lg">
+                        <div class="card-body p-0">
+                            <div class="embed-responsive embed-responsive-16by9" style="height: 450px;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5148338209647!2d104.7456867737007!3d-2.9545403397225556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b7606b6ea9f07%3A0x83305e6d548171d!2sInstitut%20Teknologi%20dan%20Bisnis%20PalComTech!5e0!3m2!1sid!2sid!4v1749561753829!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p class="lead">Ingin tahu lebih banyak tentang lokasi kami atau butuh bantuan arah? Jangan ragu untuk menghubungi kami!</p>
+                <a href="https://wa.me/6281234567890?text=Halo%20Miniezztowel%2C%20saya%20ingin%20bertanya%20tentang%20lokasi%20toko." class="btn btn-success btn-lg whatsapp-button shadow-sm" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Minta Petunjuk Arah via WhatsApp!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-cta text-center py-5">
+        <div class="container">
+            <h2 class="mb-4 fw-bold">Siap merasakan kelembutan Miniezztowel?</h2>
+            <p class="lead mb-4">Jangan tunda lagi! Dapatkan handuk impian Anda sekarang juga. Penawaran terbatas!</p>
+            <a href="https://wa.me/6281234567890?text=Saya%20siap%20memesan%20handuk%20dari%20Miniezztowel%20sekarang!" class="btn btn-light btn-lg whatsapp-button shadow-lg" target="_blank">
+                <i class="fab fa-whatsapp"></i> Hubungi Kami Sekarang!
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Miniezztowel. All rights reserved.</p>
+            <p>Dibuat dengan <i class="fas fa-heart text-danger"></i> untuk Anda.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
